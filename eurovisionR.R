@@ -13,7 +13,7 @@ ui <- fluidPage(
     sliderInput("n_countries", "Number of countries per viewer:",
                 min = 1, max = 5,
                 value = 1),
-      textInput('viewers', 'Enter the viewers names separated by commas', "Chad, Eric, Donald, Huw", width = '800px')
+      textInput('viewers', 'Enter the viewers names separated by commas', "Chad, Eric, Elon, Donald, Huw", width = '800px')
     
   ),
   
