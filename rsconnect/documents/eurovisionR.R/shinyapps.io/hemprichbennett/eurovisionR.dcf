@@ -1,0 +1,12 @@
+name: eurovisionR
+title: eurovisionR
+username:
+account: hemprichbennett
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 339646
+bundleId: 1363513
+url: https://hemprichbennett.shinyapps.io/eurovisionR/
+when: 1525811361.73952
+asMultiple: FALSE
+asStatic: FALSE
