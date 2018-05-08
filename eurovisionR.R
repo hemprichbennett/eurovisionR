@@ -22,7 +22,7 @@ ui <- fluidPage(
     print("Give the names of the people at your party, we'll tell you who they should support. The countries list will be updated once the finalists are announced!"),
     DT::dataTableOutput("mytable"),
     
-    print("Code available at https://github.com/hemprichbennett/eurovisionR")
+    print("This code uses the names input to allocate a random non-overlapping subset of the potential countries to each viewer\nCode available at https://github.com/hemprichbennett/eurovisionR")
   )
 )
 
