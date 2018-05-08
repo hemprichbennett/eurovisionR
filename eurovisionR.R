@@ -1,7 +1,7 @@
 library(shiny)
 countries <- paste(rep('generic european country', 26), LETTERS[1:26])
 
-# Define UI for miles per gallon app ----
+# Define UI
 ui <- fluidPage(
   
   # App title ----
@@ -26,7 +26,7 @@ ui <- fluidPage(
   )
 )
 
-# Define server logic to plot various variables against mpg ----
+# Define server logic to give output ----
 server <- function(input, output) {
   
     
