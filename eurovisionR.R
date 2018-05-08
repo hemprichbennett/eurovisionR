@@ -5,7 +5,7 @@ countries <- paste(rep('generic european country', 26), LETTERS[1:26])
 ui <- fluidPage(
   
   # App title ----
-  headerPanel("Eurovision party support generator: give the names of the people at your party, we'll tell you who they should support. The countries list will be updated once the finalists are announced!"),
+  headerPanel("Eurovision party support generator"),
   
   # Sidebar panel for inputs ----
   sidebarPanel(
@@ -19,9 +19,10 @@ ui <- fluidPage(
   
   # Main panel for displaying outputs ----
   mainPanel(
+    print("Give the names of the people at your party, we'll tell you who they should support. The countries list will be updated once the finalists are announced!"),
+    DT::dataTableOutput("mytable"),
     
-    DT::dataTableOutput("mytable")
-    
+    print("Code available at https://github.com/hemprichbennett/eurovisionR")
   )
 )
 
