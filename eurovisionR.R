@@ -1,5 +1,6 @@
 library(shiny)
-countries <- paste(rep('generic european country', 26), LETTERS[1:26])
+countries <- c('Austria', 'Estonia', 'Cyprus', 'Lithuania', 'Israel', 'Czech republic', 'Bulgaria',
+               'Albania', 'Finland', 'Ireland', paste(rep('generic european country', 13), LETTERS[1:13]))
 
 # Define UI
 ui <- fluidPage(
