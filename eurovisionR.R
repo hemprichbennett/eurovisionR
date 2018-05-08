@@ -5,7 +5,7 @@ countries <- paste(rep('generic european country', 26), LETTERS[1:26])
 ui <- fluidPage(
   
   # App title ----
-  headerPanel("Eurovision party support generator"),
+  headerPanel("Eurovision sweepstake generator"),
   
   # Sidebar panel for inputs ----
   sidebarPanel(
